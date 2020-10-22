@@ -1,2 +1,1 @@
-echo "===> Running tests..."
-bin/rspec
+docker run -it rspec_koans
