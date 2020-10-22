@@ -7,5 +7,3 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install --binstubs
 
 COPY . .
-
-CMD rspec
