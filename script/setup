@@ -7,6 +7,4 @@ set -e
 
 cd "$(dirname "$0")/.."
 
-script/bootstrap
-
-echo "==> App is now ready to go!"
+docker build -t rspec_koans .
