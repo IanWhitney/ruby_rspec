@@ -17,5 +17,5 @@ RSpec.configure do |config|
     config.default_formatter = "doc"
   end
 
-  config.order = :random
+  config.order = :defined
 end
